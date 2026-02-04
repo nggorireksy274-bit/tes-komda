@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Diri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Isi Data Diri</h2>
+
+<form onsubmit="return lanjutTes()">
+    <input type="text" placeholder="Nama Lengkap" required><br>
+    <input type="email" placeholder="Email" required><br>
+    <input type="text" placeholder="Asal Sekolah" required><br>
+    <button type="submit">Mulai Tes</button>
+</form>
+
+<script>
+function lanjutTes() {
+    window.location.href = "soal.html";
+    return false;
+}
+</script>
+
+</body>
+</html>
