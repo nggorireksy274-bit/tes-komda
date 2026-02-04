@@ -1,0 +1,2 @@
+# tes-komda
+link komda 
